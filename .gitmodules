@@ -1,0 +1,6 @@
+[submodule "cakemix-server"]
+	path = cakemix-server
+	url = https://github.com/wonder-wonder/cakemix-server
+[submodule "cakemix-front"]
+	path = cakemix-front
+	url = https://github.com/wonder-wonder/cakemix-front
