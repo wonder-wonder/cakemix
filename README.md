@@ -1,6 +1,6 @@
 # Cakemix
 
-<a href="https://hotcakemix.com">![Cakemix](docs/banner.png)</a>
+[![Cakemix](docs/banner.png)](https://hotcakemix.com)
 
 <!-- ![Version](https://img.shields.io/github/v/tag/wonder-wonder/cakemix) -->
 [![License](https://img.shields.io/github/license/wonder-wonder/cakemix)](LICENSE)
