@@ -18,7 +18,7 @@ jobs:
       run: |
         cd cakemix-server && SVVER=$(git describe --tags --abbrev=0) && cd ..
         cd cakemix-front && FRVER=$(git describe --tags --abbrev=0) && cd ..
-        echo "newtag=${SVVER}s-${FRVER}f" >> $GITHUB_ENV
+        echo "newtag=s${SVVER}-f${FRVER}" >> $GITHUB_ENV
     - name: add tag
       run: |
         git checkout main
