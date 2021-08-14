@@ -1,12 +1,14 @@
 # Cakemix
 
-![Cakemix](docs/banner.png)
+<a href="https://hotcakemix.com">![Cakemix](docs/banner.png)</a>
 
 <!-- ![Version](https://img.shields.io/github/v/tag/wonder-wonder/cakemix) -->
 [![License](https://img.shields.io/github/license/wonder-wonder/cakemix)](LICENSE)
 
 Cakemix is opensource document management system for all creative team.  
 You can make a small team, folder and document on the Cakemix, also write a document with markdown, and edit with multiple users in realtime.  
+
+You can try [Cakemix DEMO](https://hotcakemix.com)
 
 # Features
 
@@ -21,43 +23,14 @@ You can make a small team, folder and document on the Cakemix, also write a docu
 
 # Demo
 
-You can easily use demo of Cakemix. You should try it from here!  
-[DEMO](https://hotcakemix.com)
+You can try Cakemix DEMO from [HERE](https://hotcakemix.com)
 
-<!--
-## Cakemix Release Policy
-### Branches
-- main
-  - latest stable version
-- release/vx.x.x
-  - bata version (release candidate)
-- develop
-  - alpha version (version of developing phase)
-- feat/xxx
-  - branch for implementation a feature or fixing a bug 
-- hotfix/xxx
-  - branch for fixing a bug that existing main branch and it needs to fix as soon as possible
+# Developer
 
-```
-feat/xxx        x     x
-              /   \ /   \
-develop   ---x-----x-----x-------x---x----- (PR required)
-                    \           /    |
-release/x            x--x--x   /     |
-                            \ /      |
-main      -------------------x-------x----- (PR required)
-                              \     /
-hotfix/x                         x
-```
+We are welcome to contribute to Cakemix!  
 
-### Versioning (Major.Minor.Patch)
-#### Major
-- will increment when breaking changes occurred
-#### Minor
-- will increment when new features are added
-#### Patch
-- will increment when bugs are fixed
--->
+- ### [SERVER SIDE](https://github.com/wonder-wonder/cakemix-server)
+- ### [FRONT SIDE](https://github.com/wonder-wonder/cakemix-front)
 
 # License
 
