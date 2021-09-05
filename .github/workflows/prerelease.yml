@@ -14,6 +14,23 @@ jobs:
       with:
         submodules: 'true'
         fetch-depth: 0
+    - name: remove old prerelease
+      uses: actions/github-script@v4.0.2
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          try {
+            const release = await github.repos.getReleaseByTag({
+              ...context.repo,
+              tag: "develop-latest",
+            })
+            const res = await github.repos.deleteRelease({
+              ...context.repo,
+              release_id: release.data.id,
+            })
+          } catch {
+            console.log("No prerelease detected. Skipped.")
+          }
     - name: remove develop-latest tag if exists
       run: |
         if git tag|grep "develop-latest";then git tag -d develop-latest && git push origin :develop-latest;fi
