@@ -25,6 +25,12 @@ You can try [Cakemix DEMO](https://hotcakemix.com)
 
 You can try Cakemix DEMO from [HERE](https://hotcakemix.com)
 
+# Deploy your server
+The fast way is to use `docker-compose`.  
+See the [`example/README.md`](example/README.md) in detail.
+
+If you want to build the server by yourself, please refer both [SERVER SIDE](https://github.com/wonder-wonder/cakemix-server) and [FRONT SIDE](https://github.com/wonder-wonder/cakemix-front) repositories.
+
 # Developer
 
 We are welcome to contribute to Cakemix!  
